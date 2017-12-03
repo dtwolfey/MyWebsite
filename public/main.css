@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* CSS Document */
+.parent {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.background {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.background2 {
+	position: relative; 
+	top: 0;
+	left: 0; 
+	height: 700px; }
+.aa {
+	position: absolute;
+	width: 8%;
+	top: 38.35%;
+	left: 57.61%;
+	
+}
+.ab {
+	position: absolute;
+	width: 12.9%;
+	top: 28.30%;
+	left: 32.7%;
+}
+.ac {
+	position: absolute;
+	width: 11.4%;
+	top: 35.6%;
+	left: 60%;
+}
+.ad {
+	position: absolute;
+	width: 17%;
+	top: 3.5%;
+	left: 27.7%;
+}
+.ae {
+	position: absolute;
+	width: 13.5%;
+	top: 36.3%;
+	left: 36.2%;
+}
+
+.af {
+	position: absolute;
+	width: 15.7%;
+	top: 3.4%;
+	left: 53.881%;
+}
+.ag {
+	position: absolute;
+	width: 9.75%;
+	top: 86.3%;
+	left: 61%;
+}
+.ah {
+	position: absolute;
+	width: 10.95%;
+	top: 41.72%;
+	left: 59.83%;
+}
+.ai {
+	position: absolute;
+	width: 6.9%;
+	top: 53%;
+	left: 31.71%;
+}
+.aj {
+	position: absolute;
+	width: 10.4%;
+	top: 14%;
+	left: 62%;
+}
+.ak {
+	position: absolute;
+	width: 13%;
+	top: 8%;
+	left: 30.5%;
+}
+.al {
+	position: absolute;
+	width: 7.1%;
+	top: 11.9%;
+	left: 61%;
+}
+.am {
+	position: absolute;
+	width: 18.5%;
+	top: 17.6%;
+	left: 21%;
+}
+.an {
+	position: absolute;
+	width: 14%;
+	top: 52.5%;
+	left: 34%;
+}
+.ao {
+	position: absolute;
+	width: 45.1%;
+	top: 59.4%;
+	left: 26%;
+}
+.ap {
+	position: absolute;
+	width: 365px;
+	top: 197px;
+	left: 6235px;
+}
+.aq {
+	position: absolute;
+	width: 18%;
+	top: 28.6%;
+	left: 14.6%;
+}
+.ar {
+	position: absolute;
+	width: 4.6%;
+	top: 56%;
+	left: 81.75%;
+}
+.as {
+	position: absolute;
+	width: 7.3%;
+	top: 45.4%;
+	left: 6.6%;
+}
+.at {
+	position: absolute;
+	width: 8.4%;
+	top: 18%;
+	left: 42%;
+}
+.av {
+	position: absolute;
+	width: 28.5%;
+	top: 6%;
+	left: 35.75%;
+}
+.aw {
+	position: absolute;
+	width: 8%;
+	top: 75%;
+	left: 57%;
+}
+.ax {
+	position: absolute;
+	width: 37.3%;
+	top: 70.88%;
+	left: 36.6%;
+}
+.ay {
+	position: absolute;
+	width: 4.6%;
+	top: 20.2%;
+	left: 86.5%;
+}
