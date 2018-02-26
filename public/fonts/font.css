@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'CentaurMT-Regular';
+  src: url('CentaurMT-Regular.eot');
+  src: url('CentaurMT-Regular.woff') format('woff'),
+       url('CentaurMT-Regular.ttf') format('truetype'),
+       url('CentaurMT-Regular.svg#CentaurMT-Regular') format('svg'),
+       url('CentaurMT-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
