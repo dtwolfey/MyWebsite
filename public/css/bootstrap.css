@@ -9,6 +9,7 @@ body,html {
       -ms-text-size-adjust: 100%;
 	margin: 0px;
 	padding: 0px;
+    cursor: url(../assets/pointer2-19%20copy.png),auto;
 }
 article,
 aside,
@@ -5795,6 +5796,7 @@ button.close {
 	justify-content: center;
 	width: 84vw;
 	height: auto;
+    cursor: url(../assets/pointer2-19%20copy.png),auto;
 }
 .sidebar1 {
 	position: absolute;
@@ -5815,6 +5817,7 @@ button.close {
 	width: 100vw;
 	background-image: url(../assets/background-18.png);
 	background-size: 450px;
+    cursor: url(../assets/pointer2-19%20copy.png),auto;
 }
 .unit{
 	margin-bottom: 300px;
@@ -5824,6 +5827,7 @@ button.close {
 	position: relative;
 	background-size: 100%;
 	border: 2px solid antiquewhite;
+    cursor: url(../assets/pointer2-19%20copy.png),auto;
 }
 .unit1{
 	margin-bottom: 161px;
@@ -5833,6 +5837,7 @@ button.close {
 	position: relative;
 	background-size: 100%;
 	border: 2px solid antiquewhite;
+    cursor: url(../assets/pointer2-19%20copy.png),auto;
 }
 .gallerytitle{
 	margin-left: 40vw;
@@ -5885,6 +5890,7 @@ button.close {
 	float: left;
 	top: 170px ;
 	left: 57px;
+    cursor: url(../assets/pointy-20.png),auto;
 }
 .button2{
 	width: 72px;
@@ -5895,6 +5901,7 @@ button.close {
 	float: left;
 	top: 90px;
 	left: 57px;
+    cursor: url(../assets/pointy-20.png),auto;
 }
 .buttonmodal{
 	float:left;
@@ -5994,21 +6001,25 @@ button.close {
 	z-index: 999;
 	height: 50px;
 	margin-top: 0px;
+    cursor: url(../assets/pointy-20.png),auto;
 }
 .behance{
 	z-index: 999;
 	height: 50px;
 	margin-top: 10px;
+    cursor: url(../assets/pointy-20.png),auto;
 }
 .blogger{
 	z-index: 999;
 	height: 50px;
 	margin-top: 10px;
+    cursor: url(../assets/pointy-20.png),auto;
 }
 .society6{
 	z-index: 999;
 	height: 50px;
 	margin-top: 10px;
+    cursor: url(../assets/pointy-20.png),auto;
 }
 .aboutcol1{
 	float:left;
@@ -6055,6 +6066,7 @@ button.close {
 	background-size: auto 105%;
 	background-position: center;
 	border: 2px solid antiquewhite;
+    cursor: url(../assets/pointy-20.png),auto;
 }
 .infobutton{
 	position: relative;
@@ -6066,6 +6078,7 @@ button.close {
 	height: 100px;
 	margin-top: 53px;
 	margin-right: 15px;
+    cursor: url(../assets/pointy-20.png),auto;
 }
 .info1{
 	position: relative;
@@ -6154,6 +6167,7 @@ button.close {
 	transform: rotate(90deg);
 	background-color: transparent;
 	border: none;
+    cursor: url(../assets/pointy-20.png),auto;
 }
 .cabinet{
 	position:absolute;
@@ -6993,6 +7007,7 @@ button.close {
 	position: relative;
 	background-size: 100%;
 	border: 3px solid black;
+    cursor: url(../assets/pointy-20.png),auto;
 }
 .unit1:hover{
 	margin-bottom: 161px;
@@ -7002,4 +7017,5 @@ button.close {
 	position: relative;
 	background-size: 100%;
 	border: 3px solid black;
+    cursor: url(../assets/pointy-20.png),auto;
 }
