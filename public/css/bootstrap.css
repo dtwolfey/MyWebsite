@@ -5717,48 +5717,55 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
+.blackboxbox {
+	position: absolute;
+	align-content: center;
+	padding-top: 35.5vh;
+	width: 100vw;
+}
+
 .blackbox1{
+	position: relative;
+	float: left;
 	margin-top: 40px;
-	margin-right: 20px;
-	z-index: 0;
+	margin-left: 18vw;
 	background-color: black;
-	height: 40px;
-	width: 365px;
+	height: 50px;
+	width: 390px;
 }
 .blackbox2{
+	position: relative;
+	float: right;
 	margin-top: 40px;
-	margin-left: 20px;
-	z-index: 0;
+	margin-right: 18.75vw;
 	background-color: black;
-	height: 40px;
-	width: 355px;
+	height: 50px;
+	width: 375px;
 }
 .titlebox{
-	padding-top: 35vh;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
 	position: relative;
+	padding-top: 35vh;
+	justify-content: center;
 	width: 100vw;
 }
 .title{
-	position: absolute;
 	margin-left: 10px;
-	z-index: 1;
 	color: white;
 	text-align: center;
 	font-family: "Nobel-Regular", Nobel, "Gotham HTF Medium", Arial, Helvetica, "sans-serif";
-	font-size: 72px;
+	font-size: 80px;
 	letter-spacing: 25px;
 }
 .subtitle {
+	position: relative;
+	margin: auto;
+	width: 28vw;
 	text-align: center;
-	margin-top: 25vh;
-	position: absolute;
-	padding: 10px;
+	margin-top: 120px;
+	padding: 5px;
 	color: black;
-	font-size: 16pt;
-	font-family: "Adobe Garamond Pro";
+	font-size: 14pt;
+	font-family: "Adobe Garamond Pro", "Times Roman", Georgia, "serif", "Adobe Jenson MM 506 SB 12 OP", "Centaur MT";
 	font-style: italic;
 	font-weight: 600;
 	letter-spacing: .5px;
@@ -5768,14 +5775,12 @@ button.close {
 	color:white;
 }
 .scrolldown{
-	text-align: center;
-	margin-top: 50vh;
-	position: absolute;
-	font-size: 36pt;
-	line-height: 20px;
-	font-family: NewHildegardPro-Bitmap;
-	color: white;
-	letter-spacing: 1px;
+	position: relative;
+	margin: auto;
+	margin-top: 80px;
+	width: 15vw;
+	height: 125px;
+    cursor: url(../assets/pointy-20.png),auto;	
 }
 .video {
 	position: fixed;
@@ -5803,20 +5808,25 @@ button.close {
     top: 0;
 	float: left;
 	height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 70px;
+    width: 5.5vw;
     left: 0;
     overflow-x: hidden;
-    background-color: white;
-	border-right: solid #95e1bf;
+	border-right: solid thick #cccccc;
 	border-width: 5px;
+	background-image: url(../assets/sidebarback.png);
+	background-size: 100%;
+	background-repeat: repeat-y;
 }
 .gallery{
-	margin-top: 80vh;
+	margin-top: 20vh;
+	border-top: solid thick #cccccc;
 	position:absolute;
-	justify-content: center;
+	float: right;
 	width: 100vw;
-	background-image: url(../assets/background-18.png);
-	background-size: 450px;
+	background-image: url(../assets/wireframes-21.png);
+	background-size: 94.5vw;
+	background-position: right;
+	background-repeat: repeat-y;
     cursor: url(../assets/pointer2-19%20copy.png),auto;
 }
 .unit{
@@ -5826,7 +5836,7 @@ button.close {
 	width: 70vw;
 	position: relative;
 	background-size: 100%;
-	border: 2px solid antiquewhite;
+	border: medium solid #dddddd;
     cursor: url(../assets/pointer2-19%20copy.png),auto;
 }
 .unit1{
@@ -5836,7 +5846,7 @@ button.close {
 	width: 70vw;
 	position: relative;
 	background-size: 100%;
-	border: 2px solid antiquewhite;
+	border: medium solid #dddddd;
     cursor: url(../assets/pointer2-19%20copy.png),auto;
 }
 .gallerytitle{
@@ -5850,10 +5860,10 @@ button.close {
 	letter-spacing: 5px;
 }
 .projecttitle{
-	font-family:  'Adobe Garamond Pro';
+	font-family: "Adobe Garamond Pro", "Times Roman", Georgia, "serif", "Adobe Jenson MM 506 SB 12 OP", "Centaur MT";
 	font-weight: inherit;
 	letter-spacing: 1px;
-	font-size: 21pt;
+	font-size: 16pt;
 	color: white;
 	padding: 10px;
 	padding-bottom: 5px;
@@ -5863,11 +5873,11 @@ button.close {
 	display: inline-block;
 }
 .date{
-	font-family:  'Adobe Garamond Pro';
+	font-family: "Adobe Garamond Pro", "Times Roman", Georgia, "serif", "Adobe Jenson MM 506 SB 12 OP", "Centaur MT";
 	font-weight: inherit;
 	float: right;
 	letter-spacing: 1px;
-	font-size: 21pt;
+	font-size: 16pt;
 	color: white;
 	padding: 10px;
 	padding-bottom: 5px;
@@ -5907,6 +5917,7 @@ button.close {
 	float:left;
 	width: 350px;
 	z-index: 980;
+	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 	overflow: hidden;
@@ -5914,6 +5925,7 @@ button.close {
 	padding-top:40px;
 }
 .buttonbox{
+	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 	height: 200px;
@@ -5926,11 +5938,11 @@ button.close {
 	background-color: white;
 	float: left;
 	position: absolute;
-	margin-left: -7vw;
-	margin-top: -125px;
-	padding: 10px;
+	margin-left: 7vw;
+	margin-top: -117px;
+	padding: 5px;
 	font-family: "Adobe Garamond Pro", "Times Roman", Georgia, "serif", "Adobe Jenson MM 506 SB 12 OP", "Centaur MT";
-	font-size: 18pt;
+	font-size: 15pt;
 }
 .whatsurname::placeholder {
 	color: lightgray;
@@ -5941,11 +5953,11 @@ button.close {
 	background-color: white;
 	float: left;
 	position: absolute;
-	margin-left: -7vw;
-	margin-top: 40vh;
-	padding: 10px;
+	margin-left: 7vw;
+	margin-top: 390px;
+	padding: 5px;
 	font-family: "Adobe Garamond Pro", "Times Roman", Georgia, "serif", "Adobe Jenson MM 506 SB 12 OP", "Centaur MT";
-	font-size: 18pt;
+	font-size: 15pt;
 }
 .emaillink::placeholder {
 	color: lightgray;
@@ -5955,69 +5967,68 @@ button.close {
 }
 .talktome{
 	width: 60vw;
-	height: 35vh;
+	height: 53.5vh;
 	background-color: white;
 	float: left;
 	position: absolute;
-	margin-left: -7vw;
-	margin-top: -25px;
-	padding: 10px;
+	margin-left: 7vw;
+	margin-top: -48px;
+	padding: 5px;
 	font-family: "Adobe Garamond Pro", "Times Roman", Georgia, "serif", "Adobe Jenson MM 506 SB 12 OP", "Centaur MT";
-	font-size: 18pt;
+	font-size: 15pt;
 }
 .send{
-	height: 50px;
-	width: 50px;
+	height: 78px;
+	width: 78px;
 	position: relative;
 	float: right;
-	margin-right: 16vw;
-	margin-top: 40vh;
+	margin-right: 14vw;
+	margin-top: 375px;
 	transform: rotate(270deg);
 	background-color: transparent;
 	border: none;
 }
+#send{stroke:}
 .socmed{
-	height: 275px;
-	width: 40px;
+	width: 30px;
 	float:left;
 	z-index: 980;
+	position: -webkit-sticky;
 	position: sticky;
-	top: 200px;
-	padding-top:40px;
+	top: 67.5vh;
 	overflow: hidden;
-	margin-left: -350px;
+	margin-left: -180px;
 }
 .socmed2{
-	height: 275px;
-	width: 40px;
+	width: 30px;
 	float:left;
 	z-index: 980;
 	position: relative;
-	top: 40px;
+	top: 40vh;
 	overflow: hidden;
 	margin-left: -350px;
 }
 .instagram{
 	z-index: 999;
-	height: 50px;
+	height: 30px;
 	margin-top: 0px;
     cursor: url(../assets/pointy-20.png),auto;
 }
 .behance{
 	z-index: 999;
-	height: 50px;
+	height: 30px;
 	margin-top: 10px;
     cursor: url(../assets/pointy-20.png),auto;
 }
 .blogger{
 	z-index: 999;
-	height: 50px;
+	height: 30px;
 	margin-top: 10px;
     cursor: url(../assets/pointy-20.png),auto;
 }
 .society6{
 	z-index: 999;
-	height: 50px;
+	height: 30px;
 	margin-top: 10px;
     cursor: url(../assets/pointy-20.png),auto;
 }
@@ -6026,7 +6037,7 @@ button.close {
 	position: fixed;
 	width: 25vw;
 	margin-left: 22vw;
-	margin-top: -36px;
+	margin-top: -50px;
 	height: 75vh;
 	z-index: -999;
 	font-family:  'Adobe Garamond Pro';
@@ -6039,7 +6050,7 @@ button.close {
 	position: fixed;
 	width: 25vw;
 	margin-left: 52vw;
-	margin-top: -36px;
+	margin-top: -50px;
 	height: 75vh;
 	z-index: -999;
 	font-family:  'Adobe Garamond Pro';
@@ -6052,20 +6063,19 @@ button.close {
 	position: fixed;
 	width: 25vw;
 	margin-left: 22vw;
-	margin-top: -118px;
+	margin-top: -110px;
 	height: 75vh;
 	z-index: -999;
 	font-family: "Nobel";
-	font-size: 36pt;
+	font-size: 28pt;
 	letter-spacing: 5px;
 }
 .profpic {
 	width: 100%;
 	height: 25vw;
-	margin-top: 5px;
 	background-size: auto 105%;
 	background-position: center;
-	border: 2px solid antiquewhite;
+	border: medium solid #dddddd;
     cursor: url(../assets/pointy-20.png),auto;
 }
 .infobutton{
@@ -6074,7 +6084,19 @@ button.close {
 	background-image: url(../assets/infopage-17.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	width: 50px;
+	width: 40px;
+	height: 100px;
+	margin-top: 53px;
+	margin-right: 15px;
+    cursor: url(../assets/pointy-20.png),auto;
+}
+.infobutton:hover{
+	position: relative;
+	float: left;
+	background-image: url(../assets/infofile-17active.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 40px;
 	height: 100px;
 	margin-top: 53px;
 	margin-right: 15px;
@@ -6113,9 +6135,12 @@ button.close {
 	padding: 0px;
 	height: 100vh;
 	width: 100vw;
-	background-image: url(../assets/background-18.png);
-	background-size: 450px;
 	z-index: -999;
+	background-image: url(../assets/wireframes-21.png);
+	background-size: 94.5vw;
+	background-position: right;
+	background-repeat: repeat-y;
+    cursor: url(../assets/pointer2-19%20copy.png),auto;
 }
 #a:hover~#b{
 	color: black;
@@ -6163,22 +6188,23 @@ button.close {
 	position: relative;
 	float: left;
 	margin-left: 8px;
-	margin-top: 90vh;
+	margin-top: 2vh;
 	transform: rotate(90deg);
 	background-color: transparent;
 	border: none;
     cursor: url(../assets/pointy-20.png),auto;
 }
 .cabinet{
-	position:absolute;
-	height: 75vh;
-	margin-top: -107px;
-	margin-left: 22vw;
+	position:fixed;
+	height: 100vh;
+	margin-top: -200px;
+	margin-left: 15vw;
 	justify-content: center;
-	width: 70vw;
+	width: 90vw;
 }
 .filefolder{
 	float:left;
+	margin-top: 100px;
 	height: 100%;
 	width: 195px;
 }
@@ -6197,137 +6223,116 @@ button.close {
 	float: left;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	width: 50px;
-	height: 80px;
+	width: 40px;
+	height: 65px;
 	margin-left: 15px;
-}
-.imageport{
-	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
 }
 .hiveport{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/infohive.jpg);
-	background-size: contain;
+	background-size: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .hive1{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/hive/hex1.png);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .hive2{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/hive/hex2.png);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .hive3{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/hive/hex3.png);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .hive4{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/hive/hex4.png);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .hive5{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/hive/hex5.png);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .hive6{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/hive/hex6.png);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .hive7{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/hive/hex7.png);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .hive8{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/hive/hex8.png);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .hive9{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/hive/hex9.png);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .hive10{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/hive/hex10.png);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -6335,121 +6340,110 @@ button.close {
 
 .follyport{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/infofolly.jpg);
-	background-size: contain;
+	background-size: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .folly1{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/folly/folly1.png);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .folly2{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/folly/folly2.png);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .folly3{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/folly/folly3.png);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .folly4{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/folly/folly4.png);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .folly5{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/folly/folly5.png);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .folly6{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/folly/folly6.png);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .folly7{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/folly/folly7.png);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .folly8{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/folly/folly8.png);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .folly9{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/folly/folly9.jpg);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .folly10{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/folly/folly10.jpg);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -6457,21 +6451,19 @@ button.close {
 
 .typeport{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/infotype.jpg);
-	background-size: contain;
+	background-size: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .type1{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/type/type1.png);
 	background-size: contain;
 	background-position: center;
@@ -6479,10 +6471,9 @@ button.close {
 }
 .type2{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/type/type2.png);
 	background-size: contain;
 	background-position: center;
@@ -6490,10 +6481,9 @@ button.close {
 }
 .type3{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/type/type3.png);
 	background-size: contain;
 	background-position: center;
@@ -6501,10 +6491,9 @@ button.close {
 }
 .type4{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/type/type4.png);
 	background-size: contain;
 	background-position: center;
@@ -6512,10 +6501,9 @@ button.close {
 }
 .type5{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/type/type5.jpg);
 	background-size: contain;
 	background-position: center;
@@ -6523,10 +6511,9 @@ button.close {
 }
 .type6{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/type/type6.jpg);
 	background-size: contain;
 	background-position: center;
@@ -6534,10 +6521,9 @@ button.close {
 }
 .type7{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/type/type7.jpg);
 	background-size: contain;
 	background-position: center;
@@ -6545,10 +6531,9 @@ button.close {
 }
 .type8{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/type/type8.jpg);
 	background-size: contain;
 	background-position: center;
@@ -6556,10 +6541,9 @@ button.close {
 }
 .type9{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/type/type9.jpg);
 	background-size: contain;
 	background-position: center;
@@ -6567,10 +6551,9 @@ button.close {
 }
 .type10{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/type/type10.jpg);
 	background-size: contain;
 	background-position: center;
@@ -6578,10 +6561,9 @@ button.close {
 }
 .type11{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/type/type11.jpg);
 	background-size: contain;
 	background-position: center;
@@ -6589,10 +6571,9 @@ button.close {
 }
 .type12{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/type/type12.jpg);
 	background-size: contain;
 	background-position: center;
@@ -6601,21 +6582,19 @@ button.close {
 
 .vapeport{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/infovape.jpg);
-	background-size: contain;
+	background-size: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .vape1{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/vape/vape1.png);
 	background-size: contain;
 	background-position: center;
@@ -6623,10 +6602,9 @@ button.close {
 }
 .vape2{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/vape/vape2.png);
 	background-size: contain;
 	background-position: center;
@@ -6634,10 +6612,9 @@ button.close {
 }
 .vape3{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/vape/vape3.png);
 	background-size: contain;
 	background-position: center;
@@ -6645,10 +6622,9 @@ button.close {
 }
 .vape4{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/vape/vape4.png);
 	background-size: contain;
 	background-position: center;
@@ -6656,10 +6632,9 @@ button.close {
 }
 .vape5{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/vape/vape5.png);
 	background-size: contain;
 	background-position: center;
@@ -6667,10 +6642,9 @@ button.close {
 }
 .vape6{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/vape/vape6.png);
 	background-size: contain;
 	background-position: center;
@@ -6679,21 +6653,19 @@ button.close {
 
 .amphoraport{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/infoamphora.jpg);
-	background-size: contain;
+	background-size: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .amphora1{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/amphora/amphora1.png);
 	background-size: contain;
 	background-position: center;
@@ -6701,10 +6673,9 @@ button.close {
 }
 .amphora2{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/amphora/amphora2.png);
 	background-size: contain;
 	background-position: center;
@@ -6712,10 +6683,9 @@ button.close {
 }
 .amphora3{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/amphora/amphora3.png);
 	background-size: contain;
 	background-position: center;
@@ -6723,10 +6693,9 @@ button.close {
 }
 .amphora4{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/amphora/amphora4.png);
 	background-size: contain;
 	background-position: center;
@@ -6734,10 +6703,9 @@ button.close {
 }
 .amphora5{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/amphora/amphora5.png);
 	background-size: contain;
 	background-position: center;
@@ -6745,10 +6713,9 @@ button.close {
 }
 .amphora6{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/amphora/amphora6.png);
 	background-size: contain;
 	background-position: center;
@@ -6756,10 +6723,9 @@ button.close {
 }
 .amphora7{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/amphora/amphora7.png);
 	background-size: contain;
 	background-position: center;
@@ -6767,10 +6733,9 @@ button.close {
 }
 .amphora8{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/amphora/amphora8.png);
 	background-size: contain;
 	background-position: center;
@@ -6778,10 +6743,9 @@ button.close {
 }
 .amphora9{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/amphora/amphora9.png);
 	background-size: contain;
 	background-position: center;
@@ -6790,21 +6754,19 @@ button.close {
 
 .toolport{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/infotool.jpg);
-	background-size: contain;
+	background-size: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .tool1{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/tool/tool1.png);
 	background-size: contain;
 	background-position: center;
@@ -6812,10 +6774,9 @@ button.close {
 }
 .tool2{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/tool/tool2.png);
 	background-size: contain;
 	background-position: center;
@@ -6823,10 +6784,9 @@ button.close {
 }
 .tool3{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/tool/tool3.png);
 	background-size: contain;
 	background-position: center;
@@ -6834,10 +6794,9 @@ button.close {
 }
 .tool4{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/tool/tool4.png);
 	background-size: contain;
 	background-position: center;
@@ -6845,10 +6804,9 @@ button.close {
 }
 .tool5{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/tool/tool5.jpeg);
 	background-size: contain;
 	background-position: center;
@@ -6856,10 +6814,9 @@ button.close {
 }
 .tool6{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/tool/tool6.jpeg);
 	background-size: contain;
 	background-position: center;
@@ -6867,10 +6824,9 @@ button.close {
 }
 .tool7{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/tool/tool7.png);
 	background-size: contain;
 	background-position: center;
@@ -6879,121 +6835,110 @@ button.close {
 
 .formport{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
-	background-color: white;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/infoform.jpg);
-	background-size: contain;
+	background-size: 50%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .form1{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/form/form1.jpg);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .form2{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/form/form2.jpeg);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .form3{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/form/form3.jpeg);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .form4{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/form/form4.jpeg);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .form5{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/form/form5.jpeg);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .form6{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/form/form6.jpeg);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .form7{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/form/form7.jpeg);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .form8{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/form/form8.jpeg);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .form9{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/form/form9.jpeg);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .form10{
 	float:left;
-	border: solid 2px antiquewhite;
-	height: 100%;
-	width: 49vw;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
 	background-image: url(../assets/images/form/form10.jpeg);
-	background-color: white;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -7006,7 +6951,7 @@ button.close {
 	width: 70vw;
 	position: relative;
 	background-size: 100%;
-	border: 3px solid black;
+	border: medium solid #ffb4ab;
     cursor: url(../assets/pointy-20.png),auto;
 }
 .unit1:hover{
@@ -7016,6 +6961,10 @@ button.close {
 	width: 70vw;
 	position: relative;
 	background-size: 100%;
-	border: 3px solid black;
+	border: medium solid #ffb4ab;
     cursor: url(../assets/pointy-20.png),auto;
 }
+#letterform:hover{fill:white; cursor: url(../assets/pointy-20.png),auto;}
+#st0:hover{fill:#ffb4ab; cursor: url(../assets/pointy-20.png),auto;}
+.cls-1:hover{stroke:#ffb4ab; cursor: url(../assets/pointy-20.png),auto;}
+#hand:hover{fill:white; cursor: url(../assets/pointy-20.png),auto;}
