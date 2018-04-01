@@ -1,0 +1,149 @@
+/**
+ * Swiper 4.2.0
+ * Most modern mobile touch slider and framework with hardware accelerated transitions
+ * http://www.idangero.us/swiper/
+ *
+ * Copyright 2014-2018 Vladimir Kharlampidi
+ *
+ * Released under the MIT License
+ *
+ * Released on: March 16, 2018
+ */
+
+.swiper-container{
+	margin:0;
+	position:relative;
+	overflow:hidden;
+	list-style:none;
+	padding:0;
+	z-index:1;
+}
+.swiper-container-no-flexbox .swiper-slide{
+	float:left;
+}
+.swiper-container-vertical>.swiper-wrapper{
+	-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;
+}
+.swiper-wrapper{
+	position:absolute;
+	margin: 0;
+	width:100vw;
+	height:100vh;
+	z-index:1;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-transition-property:-webkit-transform;
+	transition-property:-webkit-transform;
+	-o-transition-property:transform;
+	transition-property:transform;
+	transition-property:transform,-webkit-transform;
+	-webkit-box-sizing:content-box;box-sizing:content-box;
+}
+.swiper-container-android .swiper-slide,.swiper-wrapper{
+	-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);
+}
+.swiper-container-multirow>.swiper-wrapper{
+	-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;
+}
+.swiper-container-free-mode>.swiper-wrapper{
+	-webkit-transition-timing-function:ease-out;-o-transition-timing-function:ease-out;transition-timing-function:ease-out;margin:0 auto;
+}
+.swiper-slide{
+	-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;width:100vw;height:90vh;position:relative;-webkit-transition-property:-webkit-transform;transition-property:-webkit-transform;-o-transition-property:transform;transition-property:transform;transition-property:transform,-webkit-transform;
+}
+.swiper-invisible-blank-slide{
+	visibility:hidden;
+}
+.swiper-container-autoheight,.swiper-container-autoheight .swiper-slide{
+	height:90vh;
+}
+.swiper-container-autoheight .swiper-wrapper{
+	-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;-webkit-transition-property:height,-webkit-transform;transition-property:height,-webkit-transform;-o-transition-property:transform,height;transition-property:transform,height;transition-property:transform,height,-webkit-transform;
+}
+.swiper-pagination{
+	position:absolute;
+	text-align:center;
+	-webkit-transition:.3s opacity;
+	-o-transition:.3s opacity;
+	transition:.3s opacity;
+	-webkit-transform:translate3d(0,0,0);
+	transform:translate3d(0,0,0);
+	z-index:10;
+}
+.swiper-pagination.swiper-pagination-hidden{opacity:0}
+.swiper-container-horizontal>.swiper-pagination-bullets,.swiper-pagination-custom,.swiper-pagination-fraction{
+	bottom:0px;left:0;width:100vw;
+}
+.swiper-pagination-bullet{
+	width:20px;
+	height:30px;
+	display:inline-block;
+	background:#000;opacity:.2;
+}button
+.swiper-pagination-bullet{
+	border:none;
+	margin:0;
+	padding:0;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet{cursor:pointer}
+.swiper-pagination-bullet-active{opacity:1;background:#ffb4ab}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin:0 4px}
+ .swiper-container {
+	  background-image: url(../../../assets/wireframes-21.png);
+	  background-size: cover;
+	 margin-top:-30vh;
+      width: 100vw;
+      height: 80vh;
+    }
+    .swiper-slide {
+      text-align: center;
+	  font-family: "Nobel-Regular", Nobel, "Gotham HTF Medium", Arial, Helvetica, "sans-serif";
+      font-size: 18px;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .swiper-pagination-bullet {
+      width: 6vw;
+      height: 3.75vh;
+	  padding-top: 1.2vh;
+      opacity: 1;
+		color: #fff;
+	  font-family: "Adobe Garamond Pro", "Times Roman", Georgia, "serif", "Adobe Jenson MM 506 SB 12 OP", "Centaur MT";
+	  background-image: url(../../../assets/mobilebutton.png);
+	  background-size: cover;
+		background-color: #fff;
+    }
+    .swiper-pagination-bullet-active {
+		color: #000;
+	background-image: url(../../../assets/mobilebuttonactive.png);
+		background-color: #fff;
+    }
+@media screen and (min-width: 768px){
+	.swiper-container{
+		display:none;
+	margin:0;
+	position:relative;
+	overflow:hidden;
+	list-style:none;
+	padding:0;
+	z-index:1;
+}

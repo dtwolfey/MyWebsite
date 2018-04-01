@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Hive Living Complexes</title>
+<link rel="stylesheet" href="swiper/dist/css/swiper.min.css">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -109,6 +110,58 @@
 	  </div>
 	</div>
 	</div>
+	  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+		  <img src="assets/infohive.jpg" style="height: 75%; margin-top: -25%;"/>
+		</div>
+      <div class="swiper-slide">
+		  <img src="assets/images/hive/hex1.png" style="width: 98vw; margin-top: -25%;"/>
+		</div>
+      <div class="swiper-slide">
+		  <img src="assets/images/hive/hex3.png" style="height: 75%; margin-top: -25%;"/>
+		</div>
+      <div class="swiper-slide">
+		  <img src="assets/images/hive/hex4.png" style="height: 75%; margin-top: -25%;"/>
+		</div>
+      <div class="swiper-slide">
+		  <img src="assets/images/hive/hex5.png" style="height: 75%; margin-top: -25%;"/>
+		</div>
+      <div class="swiper-slide">
+		  <img src="assets/images/hive/hex6.png" style="width: 98vw; margin-top: -25%;"/>
+		</div>
+      <div class="swiper-slide">
+		  <img src="assets/images/hive/hex7.png" style="width: 98vw; margin-top: -25%;"/>
+		</div>
+      <div class="swiper-slide">
+		  <img src="assets/images/hive/hex8.png" style="width: 98vw; margin-top: -25%;"/>
+		</div>
+      <div class="swiper-slide">
+		  <img src="assets/images/hive/hex9.png" style="height: 75%; margin-top: -25%;"/>
+		</div>
+      <div class="swiper-slide">
+		  <img src="assets/images/hive/hex10.png" style="height: 75%; margin-top: -25%;"/>
+		</div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="swiper/dist/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + '</span>';
+        },
+      },
+    });
+  </script>
 <script>
 		$('#hive1').hover(
 		function(){
@@ -210,5 +263,6 @@
 		},
 		);
 	</script>
+	
 </body>
 </html>

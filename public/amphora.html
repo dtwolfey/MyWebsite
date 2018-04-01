@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Amphora</title>
+<link rel="stylesheet" href="swiper/dist/css/swiper.min.css">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -107,6 +108,59 @@
 	  </div>
 	  </div>
 	</div>
+	
+	  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+		  <img src="assets/infoamphora.jpg" style="height: 75%; margin-top: -25%;"/>
+		</div>
+      <div class="swiper-slide">
+		  <img src="assets/images/amphora/amphora1.png" style="width: 98vw; margin-top: -25%;"/>
+		</div>
+      <div class="swiper-slide">
+		  <img src="assets/images/amphora/amphora2.png" style="height: 75%; margin-top: -25%;"/>
+		</div>
+      <div class="swiper-slide">
+		  <img src="assets/images/amphora/amphora3.png" style="width: 98vw; margin-top: -25%;"/>
+		</div>
+      <div class="swiper-slide">
+		  <img src="assets/images/amphora/amphora4.png" style="height: 75%; margin-top: -25%;"/>
+		</div>
+      <div class="swiper-slide">
+		  <img src="assets/images/amphora/amphora5.png" style="height: 75%; margin-top: -25%;"/>
+		</div>
+      <div class="swiper-slide">
+		  <img src="assets/images/amphora/amphora6.png" style="height: 75%; margin-top: -25%;"/>
+		</div>
+      <div class="swiper-slide">
+		  <img src="assets/images/amphora/amphora7.png" style="height: 75%; margin-top: -25%;"/>
+		</div>
+      <div class="swiper-slide">
+		  <img src="assets/images/amphora/amphora8.png" style="height: 75%; margin-top: -25%;"/>
+		</div>
+      <div class="swiper-slide">
+		  <img src="assets/images/amphora/amphora9.png" style="height: 75%; margin-top: -25%;"/>
+		</div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="swiper/dist/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + '</span>';
+        },
+      },
+    });
+  </script>
 <script>
 		$('#amphora1').hover(
 		function(){
