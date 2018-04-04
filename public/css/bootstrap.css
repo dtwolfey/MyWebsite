@@ -5843,6 +5843,11 @@ button.close {
 	border: medium solid #dddddd;
     cursor: url(../assets/pointer2-19%20copy.png),auto;
 }
+	.unitclick{
+		height: 100%;
+		width: 100%;
+		cursor: url(../assets/pointy-20.png);
+	}
 .unit1{
 	margin-bottom: 161px;
 	margin-left: 17vw;
@@ -5856,8 +5861,8 @@ button.close {
 }
 .gallerytitle{
 	margin-left: 40vw;
-	margin-top: -75px;
-	margin-bottom: 175px;
+	margin-top: 10vh;
+	margin-bottom: 20vh;
 	width: 50vw;
 	position: static;
 	font-family: "Nobel";
@@ -5896,6 +5901,44 @@ button.close {
 	margin-top: -25;
 	position: relative;
 }
+	
+	
+.navigation{
+	height: 60vh;
+	width: 10vw;
+	float:left;
+	z-index: 980;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+	padding-top: 6vh;
+	}
+.mobilenav{
+		display: none;
+	}
+	.homebutton{
+		position: relative;
+		height: 10.75vh;
+		margin-top: 1vh;
+	}
+	.gallerybutton{
+		position: relative;
+		height: 7vh;
+		margin-top: 0.2vh;
+	}
+	.aboutbutton{
+		position: relative;
+		height: 6vh;
+		margin-top: 1.5vh;
+	}	
+	.contactbutton{
+		position: relative;
+		height: 10vh;
+		margin-top: 0.3vh;
+	}
+	
+	
 .button1{
 	width: 100px;
 	height: 15px;
@@ -5945,7 +5988,7 @@ button.close {
 	position: sticky;
 	top: 67.5vh;
 	overflow: hidden;
-	margin-left: -180px;
+	margin-left: -8.5vw;
 }
 .socmed2{
 	width: 30px;
@@ -5985,7 +6028,7 @@ button.close {
 	position: fixed;
 	width: 25vw;
 	margin-left: 22vw;
-	margin-top: -50px;
+	margin-top:12vh;
 	height: 75vh;
 	z-index: -999;
 	font-family:  'Adobe Garamond Pro';
@@ -5998,7 +6041,7 @@ button.close {
 	position: fixed;
 	width: 25vw;
 	margin-left: 52vw;
-	margin-top: -50px;
+	margin-top:12vh;
 	height: 75vh;
 	z-index: -999;
 	font-family:  'Adobe Garamond Pro';
@@ -6014,7 +6057,7 @@ button.close {
 	float: left;
 	position: absolute;
 	margin-left: 7vw;
-	margin-top: -117px;
+	margin-top: 10vh;
 	padding: 5px;
 	font-family: "Adobe Garamond Pro", "Times Roman", Georgia, "serif", "Adobe Jenson MM 506 SB 12 OP", "Centaur MT";
 	font-size: 15pt;
@@ -6029,7 +6072,7 @@ button.close {
 	float: left;
 	position: absolute;
 	margin-left: 7vw;
-	margin-top: 390px;
+	margin-top: 75vh;
 	padding: 5px;
 	font-family: "Adobe Garamond Pro", "Times Roman", Georgia, "serif", "Adobe Jenson MM 506 SB 12 OP", "Centaur MT";
 	font-size: 15pt;
@@ -6047,18 +6090,18 @@ button.close {
 	float: left;
 	position: absolute;
 	margin-left: 7vw;
-	margin-top: -48px;
+	margin-top: 17vh;
 	padding: 5px;
 	font-family: "Adobe Garamond Pro", "Times Roman", Georgia, "serif", "Adobe Jenson MM 506 SB 12 OP", "Centaur MT";
 	font-size: 15pt;
 }
 .send{
-	height: 78px;
+	height: 75px;
 	width: 78px;
-	position: relative;
-	float: right;
-	margin-right: 14vw;
-	margin-top: 375px;
+	position: absolute;
+	float: left;
+	margin-left: 62vw;
+	margin-top: 72.5vh;
 	transform: rotate(270deg);
 	background-color: transparent;
 	border: none;
@@ -6201,7 +6244,6 @@ button.close {
 .cabinet{
 	position:fixed;
 	height: 100vh;
-	margin-top: -200px;
 	margin-left: 15vw;
 	justify-content: center;
 	width: 90vw;
@@ -6969,6 +7011,9 @@ button.close {
 	border: medium solid #ffb4ab;
     cursor: url(../assets/pointy-20.png),auto;
 }
+	.st0{
+		fill:#ccc;
+	}
 #letterform:hover{fill:white; cursor: url(../assets/pointy-20.png),auto;}
 #st0:hover{fill:#ffb4ab; cursor: url(../assets/pointy-20.png),auto;}
 .cls-1:hover{stroke:#ffb4ab; cursor: url(../assets/pointy-20.png),auto;}
@@ -6976,6 +7021,9 @@ button.close {
 }
 
 @media screen and (max-width: 768px){
+	body,html {
+		overflow-x: hidden;
+	}
 .blackboxbox {
 	position: absolute;
 	align-content: center;
@@ -7061,8 +7109,8 @@ button.close {
 }
 .sidebar1 {
 	position: sticky;
-    top: 92vh;
-	height: 8vh;
+    top: 90vh;
+	height: 10vh;
     width: 100vw;
     overflow-y: hidden;
 	border-top: solid thick #cccccc;
@@ -7070,7 +7118,7 @@ button.close {
 	background-image: url(../assets/sidebarback.png);
 	background-size: 100%;
 	background-repeat: repeat-x;
-	z-index: 970;
+	z-index: 100;
 }
 .gallery{
 	margin-top: 20vh;
@@ -7084,8 +7132,13 @@ button.close {
 	background-repeat: repeat-y;
     cursor: url(../assets/pointer2-19%20copy.png),auto;
 }
+	.unitclick{
+		height: 100%;
+		width: 100%;
+	    cursor: url(../assets/pointy-20.png),auto;
+	}
 .unit{
-	margin-bottom: 300px;
+	margin-bottom: 20vh;
 	margin-left: 17vw;
 	height: 450px;
 	width: 70vw;
@@ -7093,7 +7146,6 @@ button.close {
 	background-size: cover;
 	background-position: right;
 	border: medium solid #dddddd;
-    cursor: url(../assets/pointer2-19%20copy.png),auto;
 }
 .unit1{
 	margin-bottom: 161px;
@@ -7109,7 +7161,6 @@ button.close {
 .gallerytitle{
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 15vh;
 	margin-bottom: 175px;
 	width: 50vw;
 	position: static;
@@ -7149,6 +7200,69 @@ button.close {
 	margin-top: -25;
 	position: relative;
 }
+	
+		
+	
+.navigation{
+	display: none;
+	height: 60vh;
+	width: 10vw;
+	float:left;
+	z-index: 980;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+	padding-top: 6vh;
+	}
+	
+.mobilenav{
+		z-index: 400;
+		position: -webkit-sticky;
+		position: sticky;
+		top: 93vh;
+		overflow: hidden;
+		margin-right: 2vw;
+		width: 95vw;
+	margin-left: auto;
+	margin-right: auto;
+		height: 5vh;
+	}
+	.homebutton{
+		z-index: 410;
+		display: block;
+		float: left;
+		position: relative;
+		width: 20vw;
+		height: 100%;
+	}
+	.gallerybutton{
+		z-index: 410;
+		display: block;
+		float: left;
+		position: relative;
+		margin-left: 5vw;
+		width: 20vw;
+		height: 100%;
+	}
+	.aboutbutton{
+		z-index: 410;
+		display: block;
+		float: right;
+		position: relative;
+		width: 20vw;
+		height: 100%;
+	}	
+	.contactbutton{
+		z-index: 410;
+		display: block;
+		float: right;
+		position: relative;
+		margin-right: 5vw;
+		width: 20vw;
+		height: 100%;
+	}
+
 .button1{
 	width: 100px;
 	height: 15px;
@@ -7197,7 +7311,7 @@ button.close {
 	z-index: 980;
 	position: -webkit-sticky;
 	position: sticky;
-	top: 93vh;
+	top: 87vh;
 	overflow: hidden;
 	margin-right: 2vw
 }
@@ -7417,7 +7531,6 @@ button.close {
 	color: black;
 }
 .unitcar{
-	margin-top: -107px;
 	margin-left: 17vw;
 	height: auto;
 	width: 70vw;
@@ -7469,14 +7582,12 @@ button.close {
 	display: none;
 	position:fixed;
 	height: 100vh;
-	margin-top: -200px;
 	margin-left: 15vw;
 	justify-content: center;
 	width: 90vw;
 }
 .filefolder{
 	float:left;
-	margin-top: 100px;
 	height: 100%;
 	width: 195px;
 }
@@ -8238,6 +8349,9 @@ button.close {
 	border: medium solid #ffb4ab;
     cursor: url(../assets/pointy-20.png),auto;
 }
+	.st0 {
+		fill: #ccc;
+	}
 #letterform:hover{fill:white; cursor: url(../assets/pointy-20.png),auto;}
 #st0:hover{fill:#ffb4ab; cursor: url(../assets/pointy-20.png),auto;}
 .cls-1:hover{stroke:#ffb4ab; cursor: url(../assets/pointy-20.png),auto;}
