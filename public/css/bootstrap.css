@@ -6991,6 +6991,380 @@ button.close {
 	background-repeat: no-repeat;
 }
 
+.weport{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/infowemissthem.png);
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.we1{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/wemissthem/logotype.png) ;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.we2{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/wemissthem/focus.jpg) ;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.we3{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/wemissthem/typefaces.png) ;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.we4{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/wemissthem/wemissthem.png) ;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.we5{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/wemissthem/postertest.png) ;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.we6{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/wemissthem/draft1.png) ;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.we7{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/wemissthem/draft2.png) ;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.we8{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/wemissthem/draft3.png) ;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.we9{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/wemissthem/draft4.png) ;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.we10{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/wemissthem/draft5.png) ;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.we11{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/wemissthem/making.gif) ;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.we12{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/wemissthem/poster.png) ;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.we13{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/wemissthem/mockup.png) ;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.we14{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/wemissthem/fbmockup.png) ;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.we15{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/wemissthem/sharpie.png) ;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.we16{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/wemissthem/mockup2.png) ;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.we17{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/wemissthem/mockup.gif) ;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.we18{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/wemissthem/website.png) ;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+	
+	
+.lotusport{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/infovape.jpg);
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.lotus1{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/vape/vape1.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.recessport{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/inforecess.jpg);
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.recess1{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/recess/map.JPG);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.recess2{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/recess/userjourney.JPG);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.recess3, .recess4, .recess11, .recess16, .recess17, .recess18, .recess19, .recess20, .recess21, .recess22, .recess23{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: none;
+}
+	.video{
+		float:left;
+		margin-top: -60vh;
+		margin-left: -64vw;
+		background-color: salmon;
+		display: none;
+	}
+	.recessvid3, .recessvid4, .recessvid16, .recessvid17, .recessvid18, .recessvid19, .recessvid20, .recessvid21, .recessvid22, .recessvid23{
+		float:left;
+		object-fit: fill;
+		transform: scale(.63,.63);
+		background-color: transparent;
+		display: inline-block;
+	}
+	.recessvid11{
+		float:left;
+		object-fit: fill;
+		margin-top: -99vh;
+		margin-left: -53vw;
+		transform: scale(.52,.52);
+		background-color: transparent;
+		display: inline-block;
+	}
+.recess5{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/recess/conceptmap.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.recess6{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/recess/concept.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.recess7{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/recess/identity.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.recess8{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/recess/character.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.recess9{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/recess/wireframe.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.recess10{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/recess/games.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.recess12{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/recess/wearables.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.recess13{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/recess/demo1.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.recess14{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/recess/demo2.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.recess15{
+	float:left;
+	height: 100vh;
+	width: 60vw;
+	background-color: transparent;
+	background-image: url(../assets/images/recess/motiontracking.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}	
+	
 .unit:hover{
 	margin-bottom: 300px;
 	margin-left: 17vw;
